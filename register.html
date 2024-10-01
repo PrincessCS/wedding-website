@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <section class="registration-section">
+        <div class="registration-container">
+            <div class="registration-image">
+            <img src="Assets/closeup-woman-man-holding-hands.png" alt="closeup-woman-man-holding-hands">
+            <div class="registration-overlay">
+                <p>Register <br> To <br>Attend</p>
+            </div>
+            </div>
+           
+        
+        
+        <div class="registration-form">
+            <form action="">
+                <label for="name">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </label>
+                
+
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </label>
+
+                <label for="phone-number">
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="Phone Number" required>
+                </label>
+
+                <label for="password">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </label>
+
+                <label for="password">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </label>
+            </form>
+            <a href="invitation.html" class="register-link-button" id="register-btn">Register</a>
+        </div>
+       
+
+    </div>
+
+    </section>
+
+    <script>
+        /*Selecting elements*/
+        const inputName = document.getElementById("name");
+        const inputEmail = document.getElementById("email");
+        const inputPhoneNumber = document.getElementById("phone-number");
+        const inputPassword = document.getElementById("password");
+        const registerBtn = document.getElementById("register-btn")
+
+        function register(event){
+            /*Event handling to prevent page refresh*/
+            event.preventDefault(); 
+
+            if(!inputName.value || !inputEmail.value || !inputPhoneNumber.value || !inputPassword.value){
+            alert("Please Fill in Details!")
+        }else{
+            window.location.href = "invitation.html"; 
+        }
+
+        };
+       
+
+        registerBtn.addEventListener("click", register)
+
+    </script>
+    
+</body>
+</html>

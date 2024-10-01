@@ -1,0 +1,790 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Navigation Styling*/
+
+nav{
+    background-color: #4158C8;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 1.5em;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+}
+
+/*Hero Section Styling*/
+
+.hero-section{
+    text-align: center;
+}
+
+.hero-section h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #162C9B;
+    padding-top: 1em;
+
+}
+
+.hero-section .sub-text{
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.hero-container{
+    position: relative;
+
+}
+
+.hero-container img{
+    width: 80%;
+    height: 80%;
+   
+}
+
+.hero-container hr{
+   border-color:#040D60;
+   position: absolute;
+   top: 12%;
+   left: 50%;
+   height: 80%;
+   
+}
+
+.wedding-order-left, .wedding-order-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 20%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #4158C8;
+
+
+}
+.wedding-order-right{
+    position: absolute;
+    right:34%;
+    gap: 6em;
+   
+   
+}
+
+.wedding-order-left{
+    position: absolute;
+    left: 35%;
+    gap: 18em;
+ 
+}
+
+/*Positioning Hero Designs*/
+
+.hero-design-top, .hero-design-right, .hero-design-center{
+    position: absolute;
+}
+
+.hero-design-top{
+    top: 10%;
+    left:0;
+   
+}
+
+.hero-design-top img, .hero-design-right img{
+    width: 50%;
+    height: 50%;
+}
+
+.hero-design-right{
+    top: 15%;
+    right: 0;
+}
+
+.hero-design-center{
+    right: 18%;
+}
+
+.hero-design-center img{
+    width: 80%;
+    height: 80%;
+}
+
+/*Date and Location Styling*/
+
+.date-location-section{
+    background-color: #F8EFA2;
+    text-align: center;
+    margin-top: 8em;
+    padding: 3em;
+    font-weight: 400;
+}
+
+.date-location-container h2{
+    font-size: 3rem;
+    
+}
+
+.date-location-container img{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.date-location-container p:nth-of-type(1), p:nth-of-type(3), p:nth-of-type(4){
+    margin-top: 2em;
+}
+
+.date-location-container p:nth-of-type(1){
+    font-size: 1.2rem;
+}
+
+.date-location-container p:nth-of-type(2){
+    font-size: 2.5rem;
+    color: #4158C8;
+    margin-top: 3em;
+    
+}
+
+.date-location-container p:nth-of-type(3){
+    font-size: 2rem;
+    border: 2px solid black;
+    width: 12%;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+.date-location-container p:nth-of-type(4){
+    font-size: 2.5rem;
+    font-style: italic;
+    color: #0F0D93;
+}
+
+/*Couple Message Section*/
+
+.couple-message-section{
+    margin-top: 5em;
+    font-weight: 400;
+    padding: 2em;
+}
+
+.couple-message-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.couple-message-img{
+    width: 50%;
+    height: 100%;
+}
+
+.couple-message-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.couple-message{
+    color:#FFAD33;
+}
+
+.couple-message p{
+    font-size: 1.5rem;
+    margin-top: 1.2em;
+}
+
+.couple-message p:nth-of-type(5){
+    margin-top: 3em;
+}
+
+/*Order of Mass Section Styling*/
+
+.order-of-mass-section{
+    background-color: #F8EFA2;
+    text-align: center;
+    padding: 2em;
+    margin-top: 5em;
+}
+
+.order-of-mass-section h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.order-of-mass-section img{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 1em;
+    
+}
+
+.order-of-mass-container p{
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+
+
+/*General Styling for Order of Mass Pages*/
+.page-order-section{
+    background-color: #F8EFA2;
+    margin-top: 3em;
+    padding: 5em;
+}
+
+/*General Styling for Order of Mass Containers*/
+.page-order-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*First Page of Order of Mass Section Styling*/
+.first-page-right h3:nth-of-type(2), .first-page-left h3:nth-of-type(2){
+    margin-top: 2em;
+}
+
+/*Second Page Order of Mass Section Styling*/
+
+.second-page-left h3:nth-of-type(3), .second-page-right h3:nth-of-type(2), .second-page-right h3:nth-of-type(3){
+    margin-top: 2em;
+    
+}
+
+/*Blessing & Recession Section Styling*/
+
+.blessing-recession-section{
+    background-color: #F8EFA2;
+    text-align: center;
+    margin-top: 3em;
+    padding: 5em;
+}
+
+.blessing-recession-container h2, .blessing-recession-container p:nth-of-type(1), .blessing-recession-container p:nth-of-type(2){
+    color: #17287D;
+}
+
+.blessing-recession-container h2{
+    font-size: 2rem;
+    font-weight: 700;
+   
+}
+
+.blessing-recession-container h2:nth-of-type(2), .blessing-recession-container p:nth-of-type(3){
+    color: #0E2DC7;
+}
+
+.blessing-recession-container h2:nth-of-type(2){
+    margin-top: 2em;
+}
+
+/*The Photos Section Styling*/
+
+.the-photos-section{
+    margin-top: 3em;
+    padding: 5em;
+    background-color: #023467;
+}
+
+.the-photos-container{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.the-photos-design-img{
+    margin-right: 3em;
+}
+
+.the-photos-design-img img{
+    width: 80%;
+    height: 80%;
+  
+}
+
+.the-photos-left{
+    width:50%;
+    margin-right: 5em;
+}
+
+.the-photos-left h2{
+    color: #FFAD33;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.the-photos-left p{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.the-photos-right{
+    width: 50%;
+}
+
+.the-photos-right-top, .the-photos-right-middle{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.the-photos-right-top{
+    gap: 20px;
+}
+
+
+.the-photos-right-top img:nth-of-type(1){
+    width: 60%;
+    height: 100%;
+}
+
+.the-photos-right-top img:nth-of-type(2){
+    width: 40%;
+    height: 100%;
+    margin-top: 6em;
+}
+
+.the-photos-right-middle{
+    margin-top: 3em;
+}
+
+.the-photos-right-middle img{
+    width: 40%;
+    height: 100%;
+}
+
+.the-photos-right-bottom{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 8em;
+    margin-left: 8em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+
+.the-photos-right-bottom p{
+    font-size: 1.5rem;
+    text-align: right;
+    color: #fff;
+    margin-top: 1em;
+}
+
+
+/*Marriage Vows Section Styling*/
+
+.marriage-vows-section{
+    background-color: #F8EFA2;
+    text-align: center;
+    margin-top: 3em;
+    padding: 5em;
+  
+    
+
+}
+
+.marriage-vows-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4158C8;
+
+}
+
+.marriage-vows-design{
+    margin-right: 12em;
+    
+}
+
+.marriage-vows-design img{
+    width: 90%;
+    height: 100%;
+
+   
+}
+
+.marriage-vows-container{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 3em;
+}
+
+
+
+.marriage-vows-container img{
+    width: 30%;
+    height: 100%;
+}
+
+/*Thank You Section Styling*/
+
+.thank-you-section{
+    background-color: #4158C8;
+    text-align: center;
+    color: #fff;
+    margin-top: 3em;
+    padding: 5em;
+
+}
+
+.thank-you-container h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+/*Large Devices (Laptops & Desktops)*/
+@media (max-width:1200px){
+
+    .hero-container img {
+        width: 70%;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+        
+    }
+
+    .hero-section .sub-text {
+        font-size: 1rem;
+    }
+
+    .wedding-order-right {
+        font-size: 1rem;
+        gap: 3em;
+    }
+
+    .wedding-order-left{
+        font-size: 1rem;
+        gap: 8em;
+    }
+
+    .date-location-container p:nth-of-type(3){
+       
+        width: 20%;
+        margin: 2em auto;
+        padding: 1em;
+    }
+
+    .marriage-vows-design{
+        margin-right:8em;
+    }
+
+
+
+}
+
+
+/*For Tablets and iPads*/
+@media(max-width:1024px){
+    .hero-design-top{
+        display: none;
+    }
+}
+
+
+
+
+/*Medium Devices (Small Laptops & Large Tablets)*/
+@media(max-width:992px){
+    .hero-container img {
+        width: 100%;
+    }
+
+    .hero-design-top, .hero-design-right{
+        display: none;
+    }
+
+    .couple-message-container{
+        flex-direction: column;
+        
+    }
+    
+    .couple-message-img{
+        width: 100%;
+        
+    }
+    
+
+}
+
+
+/*Small Devices (Tablets & Landscape Phones)*/
+@media(max-width:768px){
+
+  .wedding-order-right{
+    right: 32%;
+  }
+
+  .wedding-order-left{
+    gap: 10em;
+  }
+
+ 
+.the-photos-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.the-photos-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.the-photos-left{
+    width:100%;
+    margin-right: 0;
+}
+
+.the-photos-left p{
+    font-size: 1.5rem;
+}
+
+.the-photos-design-img{
+    display: none;
+}
+
+.the-photos-right{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+.the-photos-right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.the-photos-right-top img:nth-of-type(1){
+ display: none;
+}
+
+.the-photos-right-top img:nth-of-type(2){
+display: none;
+}
+
+.the-photos-right-middle{
+margin-top: 0;
+}
+
+.the-photos-right-middle img{
+width: 100%;
+height: 100%;
+}
+
+.the-photos-right-top, .the-photos-right-middle, .the-photos-right-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.the-photos-right-bottom{
+    padding: 1em 2em;
+}
+
+.the-photos-right-bottom p{
+    font-size: 0.9rem;
+}
+
+}
+
+
+/*Extra Small Devices (Phones, Potrait Phones)*/
+@media(max-width:567px){
+
+    .page-order-container{
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+    }
+
+    nav{
+        justify-content: center;
+    }
+
+    .hero-design-right, .hero-design-top{
+        display: none;
+    }
+
+
+    
+    .hero-container img {
+        width: 100%;
+    }
+
+
+    .wedding-order-right {
+        font-size: 0.7rem;
+        right: 29%;
+        gap: 3em;
+    }
+
+    .wedding-order-left{
+        font-size: 0.7rem;
+        gap: 10em;
+    }
+
+    .page-order-container{
+        gap: 15px;
+    }
+
+
+    .date-location-container h2{
+        font-size: 2.5rem;
+    }
+
+    .date-location-container p:nth-of-type(4){
+        font-size: 2rem;
+        
+    }
+
+
+    .couple-message-container{
+        flex-direction: column;
+        
+    }
+    
+    .couple-message-img{
+        width: 100%;
+        
+    }
+
+    .date-location-container p:nth-of-type(3){
+       
+        width: 30%;
+        margin: 2em auto;
+        padding: 1em;
+    }
+
+
+    .marriage-vows-container img{
+        width: 100%;
+       
+    }
+
+    .marriage-vows-design{
+        display: none;
+    }
+}
+
+
+
+/*Extra Extra Small Devices*/
+@media(max-width:480px){
+
+    .page-order-container{
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+    }
+
+
+    .wedding-order-right, .wedding-order-left {
+        font-size: 0.6rem;
+       
+    }
+
+    .wedding-order-right{
+        right: 29%;
+    }
+
+    .date-location-container h2{
+        font-size: 2rem;
+    }
+
+    .date-location-container p:nth-of-type(3){
+       
+        width: 40%;
+       
+    }
+
+    .couple-message-container{
+        flex-direction: column;
+        
+    }
+    
+    .couple-message-img{
+        width: 100%;
+        
+    }
+
+    
+    .marriage-vows-container img{
+        width: 100%;
+       
+    }
+
+    .the-photos-right-bottom{
+        padding: 1em 5em;
+    }
+
+    .the-photos-right-bottom p{
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media(max-width:380px){
+
+
+    .wedding-order-left, .wedding-order-right{
+        font-size: 0.6rem;
+        
+    
+    
+    }
+    .wedding-order-right{
+        right:29%;
+        gap: 3em;
+        
+    }
+
+    
+    .date-location-container p:nth-of-type(2){
+    font-size: 2rem;
+    
+    
+    }
+    .date-location-container p:nth-of-type(3){
+        width: 50%;
+        
+    }
+
+   
+}
+
+
+@media(max-width:350px){
+
+    .wedding-order-right{
+        right: 27%;
+        gap: 2em;
+    }
+    .marriage-vows-design{
+        display: none;
+    }
+}
+
+
+
+
