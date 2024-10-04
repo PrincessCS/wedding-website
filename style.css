@@ -413,9 +413,12 @@ div:nth-child(3){
 }
 
 
-.register-text h2{
+.register-text h3{
+    font-family: var(--hero-text-h1-font);
     font-size:3rem;
+    font-weight: 700;
 }
+
 
 .register-text p{
     font-size: 1.5rem;
@@ -463,8 +466,10 @@ div:nth-child(3){
 }
 
 
-.invitation-text h2{
+.invitation-text h3{
+    font-family: var(--hero-text-h1-font);
     font-size:3rem;
+    font-weight: 700;
 }
 
 .invitation-text p{
@@ -1101,7 +1106,7 @@ hr{
     
     }
 
-    .register-text h2, .invitation-text h2{
+    .register-text h2, .invitation-text h3{
         font-size:2rem;
     }
     
@@ -1273,7 +1278,7 @@ hr{
 
     .register-section, .invitation-section{
         margin:0 auto;
-        padding: 4em 1em;
+        padding: 4em 0;
            
     }
 
@@ -1284,7 +1289,7 @@ hr{
     
     }
 
-    .register-text h2, .invitation-text h2{
+    .register-text h3, .invitation-text h3{
         font-size:1rem;
     }
     
@@ -1361,7 +1366,7 @@ hr{
     
     }
 
-    .register-text h2, .invitation-text h2{
+    .register-text h3, .invitation-text h3{
         font-size:1rem;
     }
     
@@ -1372,7 +1377,7 @@ hr{
     }
 
     .explore-btn{
-        padding: 12px 20px;
+        padding: 10px 15px;
         font-size: 1rem;
         margin-top: 1em;
     
