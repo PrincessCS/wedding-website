@@ -379,15 +379,16 @@ body{
     position: absolute;
     top: 25%;
     left: 10%;
+    color: var(--text-color-white);
 }
 
 .invitation-new-text{
-    color: var(--text-color-white);
+    color: var(--text-color-black);
 }
 
 .invitation-new-text span{
     font-weight: 700;
-    color: var(--text-color-white);
+    color: var(--text-color-black);
 
 }
 
@@ -396,6 +397,7 @@ body{
     font-family: var(--hero-text-h1-font);
     font-size:3rem;
     font-weight: 700;
+    
 }
 
 .invitation-text p{
@@ -541,6 +543,7 @@ footer{
     
     
 }
+
 
 .mid-footer-right{
     display: flex;
@@ -1142,7 +1145,7 @@ hr{
 
 
     .register-text, .invitation-text{
-        top: 4%;
+        top: 8%;
     
     }
 
@@ -1159,7 +1162,7 @@ hr{
     .explore-btn{
         padding: 10px 15px;
         font-size: 1rem;
-        margin-top: 1em;
+        margin-top: 1.5em;
     
     }
 
